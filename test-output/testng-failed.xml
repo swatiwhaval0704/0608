@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="FaiureTest(failed)">
+    <classes>
+      <class name="Customlister.TestFailure">
+        <methods>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- Customlister.TestFailure -->
+    </classes>
+  </test> <!-- FaiureTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
